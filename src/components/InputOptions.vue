@@ -12,8 +12,9 @@
     <div class="option">
       <label for="postcode">Postcode</label>
       <div class="postcode-div">
-      <input id="postcode" type="text" class="postcode" />
-      <button type="submit"><i class="fa fa-search"></i></button></div>
+        <input id="postcode" type="text" class="postcode" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
     </div>
     <div class="option">
       <label for="constituency">Constituency</label>

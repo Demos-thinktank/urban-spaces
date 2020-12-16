@@ -10,28 +10,28 @@
 </template>
 
 <script>
-  export default {
-    name: "Footer",
-  };
+export default {
+  name: "Footer"
+};
 </script>
 
 <style scoped>
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    border-top: 1px solid black;
-    background-color: #1d3336;
-  }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid black;
+  background-color: #1d3336;
+}
 
-  .demos-logo {
-    height: 0.75rem;
-    margin: 1rem;
-  }
+.demos-logo {
+  height: 0.75rem;
+  margin: 1rem;
+}
 
-  .lg-logo {
-    height: 2rem;
-    margin: 1rem;
-  }
+.lg-logo {
+  height: 2rem;
+  margin: 1rem;
+}
 </style>
