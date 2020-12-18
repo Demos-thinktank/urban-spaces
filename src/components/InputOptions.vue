@@ -39,6 +39,10 @@
 export default {
   name: "InputOptions"
 };
+
+// Add postcode controller script here
+
+// Create new component for text rendering output script
 </script>
 
 <style scoped>
