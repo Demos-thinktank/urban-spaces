@@ -2,7 +2,7 @@
   <div class="home">
     <div class="section section-1">
       <div class="section-1_left">
-        <h1>PLACE<br />PRI<span class="white">O</span>RITIES</h1>
+        <h1>PLACE<br />PRI<span class="demos-o">O</span>RITIES</h1>
         <img class="tube-map" alt="tube map graphic" src="../assets/blue-lines.png">
         <router-link to="/read-the-report"
           ><p class="explore-link s1 underline">READ THE REPORT</p></router-link
@@ -221,9 +221,10 @@ a {
   margin-left: auto;
 }
 
-.white {
+.demos-o {
   color: white;
-  font-weight: 500;
+  font-weight: 200;
+  font-family: "Avenir" sans-serif;
 }
 
 /* Stop tube maps in their tracks on low widths */
