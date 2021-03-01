@@ -26,12 +26,12 @@ footer {
 }
 
 .demos-logo {
-  height: 0.75rem;
+  height: 2.5rem;
   margin: 1rem;
 }
 
 .lg-logo {
-  height: 2rem;
-  margin: 1rem;
+  height: 3rem;
+  margin: 0rem;
 }
 </style>
