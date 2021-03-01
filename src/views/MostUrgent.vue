@@ -1,7 +1,7 @@
 <template>
   <Layout
     title="MOST URGENT"
-    subtitle="The people want to see improved most urgently in their local area is [good local shops]. When asked which xxxx, x% said that their top priority was [ ], followed by y% who said [] ."
+    subtitle="We asked people to think about what was available in their local area at the moment and tell us what needed improving most urgently. The most popular answer for the country as a whole was “good local shops” followed by “good transport services”. "
     instruction="Use these buttons to explore results in different parts of the country."
   />
 </template>

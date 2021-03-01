@@ -1,22 +1,22 @@
 <template>
-  <footer>
+  <header>
     <img alt="demos logo" class="demos-logo" src="../assets/demos-logo.jpg" />
     <img
       alt="legal and general logo"
       class="lg-logo"
       src="../assets/landg.png"
     />
-  </footer>
+  </header>
 </template>
 
 <script>
 export default {
-  name: "Footer"
+  name: "Header"
 };
 </script>
 
 <style scoped>
-footer {
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

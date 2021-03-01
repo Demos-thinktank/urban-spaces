@@ -4,6 +4,9 @@
       <div class="section-1_left">
         <h1>PLACE<br />PRI<span class="white">O</span>RITIES</h1>
         <img class="tube-map" alt="tube map graphic" src="../assets/blue-lines.png">
+        <router-link to="/read-the-report"
+          ><p class="explore-link s1 underline">READ THE REPORT</p></router-link
+        >
       </div>
       <div class="section-1_right">
         <h2 class="subtitle">Improving shops is Britain’s most important regeneration priority.</h2>
@@ -12,8 +15,8 @@
         and tell us what needed improving most urgently. The most popular answer for the 
         country as a whole was “good local shops” followed by “good transport services”. 
         </p>
-        <router-link to="/read-the-report"
-          ><p class="explore-link s1 mr">READ THE REPORT</p></router-link
+        <router-link to="/most-urgent"
+          ><p class="explore-link s1 mr">EXPLORE BY LOCATION</p></router-link
         >
       </div>
     </div>
@@ -84,6 +87,13 @@ h1 {
   font-family: "Avenir Black", Avenir, Helvetica, Arial, sans-serif;
 }
 
+.underline{
+  font-family: "Avenir Black";
+  text-decoration-line: underline;
+  text-decoration-color: #1d3336;
+  text-decoration-thickness: 3px;
+}
+
 .section-1 {
   flex: 1;
   display: flex;
@@ -110,6 +120,8 @@ h1 {
     margin-bottom: 30px;
   }
 }
+
+
 
 .section-1_left {
   display: flex;
@@ -152,19 +164,6 @@ h1 {
   top: 50%;
 }
 
-/* Stop tube maps in their tracks on low widths */
-@media screen and (max-width: 960px) {
-  .section-1 .tube-map {
-    right: 283px;
-  }
-  
-  .section-2 .tube-map {
-    left: 643px;
-  }
-  .section-3 .tube-map {
-    right: 624px;
-  }
-}
 
 .section-2 {
   border-bottom: 1px solid #1d3336;
@@ -226,4 +225,19 @@ a {
   color: white;
   font-weight: 500;
 }
+
+/* Stop tube maps in their tracks on low widths */
+@media screen and (max-width: 960px) {
+  .section-1 .tube-map {
+    right: 283px;
+  }
+  
+  .section-2 .tube-map {
+    left: 643px;
+  }
+  .section-3 .tube-map {
+    right: 624px;
+  }
+}
+
 </style>
