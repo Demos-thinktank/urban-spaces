@@ -64,6 +64,7 @@ export default {
 </script>
 
 <style scoped>
+
 .home {
   display: flex;
   flex-direction: column;
@@ -76,6 +77,11 @@ export default {
 
 .subtitle{
   text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Avenir Black", Avenir, Helvetica, Arial, sans-serif;
 }
 
 .section-1 {
@@ -94,13 +100,23 @@ export default {
   }
 }
 
+/* Collapse header size at small screen sizes */
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  .section-1_left {
+    margin-bottom: 30px;
+  }
+}
+
 .section-1_left {
   display: flex;
   flex-direction: column;
   width: 30vw;
   min-width: max-content;
   margin-right: 5rem;
-  height: 4em;
 }
 
 .section-1_right {
