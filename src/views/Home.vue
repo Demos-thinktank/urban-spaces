@@ -3,17 +3,24 @@
     <div class="section section-1">
       <div class="section-1_left">
         <h1>PLACE<br />PRI<span class="demos-o">O</span>RITIES</h1>
-        <img class="tube-map" alt="tube map graphic" src="../assets/blue-lines.png">
+        <img
+          class="tube-map"
+          alt="tube map graphic"
+          src="../assets/blue-lines.png"
+        />
         <router-link to="/read-the-report"
           ><p class="explore-link s1 underline">READ THE REPORT</p></router-link
         >
       </div>
       <div class="section-1_right">
-        <h2 class="subtitle">Improving shops is Britain’s most important regeneration priority.</h2>
+        <h2 class="subtitle">
+          Improving shops is Britain’s most important regeneration priority.
+        </h2>
         <p>
-        We asked people to think about what was available in their local area at the moment 
-        and tell us what needed improving most urgently. The most popular answer for the 
-        country as a whole was “good local shops” followed by “good transport services”. 
+          We asked people to think about what was available in their local area
+          at the moment and tell us what needed improving most urgently. The
+          most popular answer for the country as a whole was “good local shops”
+          followed by “good transport services”.
         </p>
         <router-link to="/most-urgent"
           ><p class="explore-link s1 mr">EXPLORE BY LOCATION</p></router-link
@@ -22,39 +29,52 @@
     </div>
     <div class="section section-2">
       <div class="section-2_content">
-        <h2 class="subtitle">Around 2.5 million people have already moved house because of Covid-19. A further 5.5 million either plan to or are thinking about it.</h2>
+        <h2 class="subtitle">
+          Around 2.5 million people have already moved house because of
+          Covid-19. A further 5.5 million either plan to or are thinking about
+          it.
+        </h2>
         <p>
-        Across Britain, 9% of the adult population have already moved home because of 
-        factors related to the pandemic, or have made plans to do so. A further 6% are 
-        thinking about it. The most common reasons cited for moving are needing more 
-        suitable housing, and wanting to be nearer family or in a more supportive community. 
+          Across Britain, 9% of the adult population have already moved home
+          because of factors related to the pandemic, or have made plans to do
+          so. A further 6% are thinking about it. The most common reasons cited
+          for moving are needing more suitable housing, and wanting to be nearer
+          family or in a more supportive community.
         </p>
         <router-link to="/covid-effect"
           ><p class="explore-link s2">
             EXPLORE BY LOCATION
           </p></router-link
         >
-        <img class="tube-map" alt="tube map graphic" src="../assets/blue-lines.png">
+        <img
+          class="tube-map"
+          alt="tube map graphic"
+          src="../assets/blue-lines.png"
+        />
       </div>
     </div>
     <div class="section section-3">
       <div class="section-3_content">
         <h2 class="subtitle">How your place rates</h2>
         <p>
-        We asked people to score how well their local areas were doing on the 
-        everyday things they themselves thought were important. We asked about 
-        access to fresh air and nature, shops, transport, housing, internet 
-        access, places to go out, premises to support jobs, exercise and 
-        sports facilities and supportive communities and pleasant streets. 
-        Overall, the average rating across Britain across all categories was 
-        somewhere between “good” and “neither good nor bad”.
+          We asked people to score how well their local areas were doing on the
+          everyday things they themselves thought were important. We asked about
+          access to fresh air and nature, shops, transport, housing, internet
+          access, places to go out, premises to support jobs, exercise and
+          sports facilities and supportive communities and pleasant streets.
+          Overall, the average rating across Britain across all categories was
+          somewhere between “good” and “neither good nor bad”.
         </p>
         <router-link to="/satisfaction-index"
           ><p class="explore-link mr s3">
             EXPLORE BY LOCATION
           </p></router-link
         >
-        <img class="tube-map" alt="tube map graphic" src="../assets/white-lines.png">
+        <img
+          class="tube-map"
+          alt="tube map graphic"
+          src="../assets/white-lines.png"
+        />
       </div>
     </div>
   </div>
@@ -67,7 +87,6 @@ export default {
 </script>
 
 <style scoped>
-
 .home {
   display: flex;
   flex-direction: column;
@@ -78,7 +97,7 @@ export default {
   overflow: hidden;
 }
 
-.subtitle{
+.subtitle {
   text-transform: uppercase;
 }
 
@@ -87,7 +106,7 @@ h1 {
   font-family: "Avenir Black", Avenir, Helvetica, Arial, sans-serif;
 }
 
-.underline{
+.underline {
   font-family: "Avenir Black";
   text-decoration-line: underline;
   text-decoration-color: #1d3336;
@@ -115,13 +134,11 @@ h1 {
   h1 {
     font-size: 2em;
   }
-  
+
   .section-1_left {
     margin-bottom: 30px;
   }
 }
-
-
 
 .section-1_left {
   display: flex;
@@ -137,7 +154,6 @@ h1 {
   justify-content: flex-end;
   text-align: right;
   max-width: 600px;
-
 }
 
 .tube-map {
@@ -148,12 +164,12 @@ h1 {
 
 .section-1 .tube-map {
   transform: rotate(25deg);
-  top:265px;
+  top: 265px;
   right: 30%;
 }
 
 .section-2 .tube-map {
-  top:2%;
+  top: 2%;
   left: 68%;
   transform: scaleX(-1);
 }
@@ -163,7 +179,6 @@ h1 {
   transform: rotate(135deg);
   top: 50%;
 }
-
 
 .section-2 {
   border-bottom: 1px solid #1d3336;
@@ -232,7 +247,7 @@ a {
   .section-1 .tube-map {
     right: 283px;
   }
-  
+
   .section-2 .tube-map {
     left: 643px;
   }
@@ -240,5 +255,4 @@ a {
     right: 624px;
   }
 }
-
 </style>
